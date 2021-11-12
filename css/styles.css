@@ -188,6 +188,23 @@ p {
   color: var(--accent-color);
 }
 
+.footer-box {
+  display: flex;
+}
+
+.address-box {
+  margin-right: 70px;
+}
+
+.social-title {
+  color: var(--contrast-txt-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 /* ---------------Страница Студия--------------- */
 /* ---------------Главный баннер--------------- */
 .hero {
