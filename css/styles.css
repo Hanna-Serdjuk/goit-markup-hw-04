@@ -331,6 +331,21 @@ p {
   color: var(--secondary-txt-color);
 }
 
+/* ---------------Постоянные клиенты--------------- */
+
+.clients-list {
+  display: flex;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+.clients-list .item {
+  flex-basis: calc((100% - 6 * 30px) / 6);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 /* ---------------Страница Портфолио--------------- */
 /* ---------------Портфолио проектов--------------- */
 .projects-link {
