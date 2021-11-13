@@ -190,6 +190,7 @@ p {
 
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .address-box {
