@@ -149,6 +149,7 @@ p {
 
 .icon-contacts {
   margin-right: 10px;
+  fill: var(--secondary-txt-color);
 }
 
 /* ---------------Подвал сайта--------------- */
@@ -352,7 +353,6 @@ p {
 }
 
 .member-item {
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
   background-color: var(--bg-color);
@@ -377,7 +377,37 @@ p {
 }
 
 .member-position {
+  display: block;
+  margin-bottom: 16px;
   color: var(--secondary-txt-color);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-link:hover .icon-social,
+.social-link:focus .icon-social {
+  fill: var(--contrast-txt-color);
+}
+
+.icon-social {
+  fill: #afb1b8;
 }
 
 /* ---------------Постоянные клиенты--------------- */
