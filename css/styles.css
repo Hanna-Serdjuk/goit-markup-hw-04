@@ -108,6 +108,7 @@ p {
 
 .contacts {
   display: flex;
+  margin-left: auto;
 }
 
 .contacts .item:not(:last-child) {
@@ -115,6 +116,9 @@ p {
 }
 
 .contacts .link {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -136,7 +140,6 @@ p {
 .header-items {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 /* ---------------Подвал сайта--------------- */
@@ -269,30 +272,6 @@ p {
   width: 270px;
 }
 
-.features-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-
-  background-color: #f5f4fa;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-antenna::before {
-  background-image: url(../images/antenna.svg);
-}
-.icon-clock::before {
-  background-image: url(../images/clock.svg);
-}
-.icon-diagram::before {
-  background-image: url(../images/diagram.svg);
-}
-.icon-astronaut::before {
-  background-image: url(../images/astronaut.svg);
-}
 .features-list .features-item:not(:last-child) {
   margin-right: 30px;
 }
