@@ -132,6 +132,11 @@ p {
   color: var(--accent-color);
 }
 
+.contacts .link:hover .icon-contacts,
+.contacts .link:focus .icon-contacts {
+  fill: var(--accent-color);
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -140,6 +145,10 @@ p {
 .header-items {
   display: flex;
   align-items: center;
+}
+
+.icon-contacts {
+  margin-right: 10px;
 }
 
 /* ---------------Подвал сайта--------------- */
@@ -293,6 +302,17 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
+}
+
+.features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+
+  background-color: #f5f4fa;
+  border-radius: 3px;
 }
 
 /* ---------------Чем мы занимаемся--------------- */
