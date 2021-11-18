@@ -444,15 +444,16 @@ p {
 
 .clients-list {
   display: flex;
-  margin-right: -30px;
 }
 
 .clients-list .item {
   width: 170px;
   height: 92px;
-  flex-basis: calc((100% - 6 * 30px) / 6);
-  margin-right: 30px;
   text-align: center;
+}
+
+.clients-list .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .clients-link {
